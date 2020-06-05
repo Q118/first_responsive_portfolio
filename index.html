@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -15,6 +15,12 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+        .container{
+            background-color: purple;
+            
+        }
+    </style>
   </head>
   <body>
     <!--nav bar on top that is present on each page-->
@@ -50,9 +56,12 @@
         </ul>
       </div>
     </nav>
-    <div class="d-inline-flex p-2">
-      <div class="d-inline p-2 bg-primary">
-        <h1>About Me</h1>
+   
+    <!--about me section, make responsivs-->
+    <main role = "main" class= "d-inline p-2 bg-primary text-white">
+    <div class="container">
+
+        <h1 class="mt-5">About Me</h1>
         <img
           class="float-left"
           src="IMG_1978AFC1FD25-1.jpeg"
@@ -60,7 +69,7 @@
           width="200"
           height="200"
         />
-        <p>
+        <p class= "lead">
           <px1
             >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
             odit modi sunt quod aliquid reiciendis odio quisquam tenetur
@@ -76,8 +85,19 @@
             rerum.</px1
           >
         </p>
-      </div>
+
+
     </div>
+</main>
+
+
+
+<!--footer-->
+    <footer class="footer mt-auto py-3">
+        <div class="container"> 
+            <span class="text-muted">Fancy Footers Inc.</span>
+        </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
