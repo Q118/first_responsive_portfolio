@@ -24,33 +24,39 @@
 			rel="stylesheet"
 		/>
 		<style>
-			body {
-				font-family: "Montserrat", sans-serif;
-			}
-			h2,
-			h1 {
-				font-family: "Metal Mania", cursive;
-			}
+				body {
+					font-family: "Montserrat", sans-serif;
+				}
+				h2,
+				h1 {
+					font-family: "Metal Mania", cursive;
+				}
 
-			footer {
-				text-align: center;
-			}
+				footer {
+					text-align: center;
+				}
 
-			.container {
-				background-color: #96f9d0;
-				padding: 20px;
-				color: #016214;
-				border-width: 6px;
-				border-color: #016214;
-				border-style: double;
-			}
+				.container {
+					background-color: #96f9d0;
+					padding: 20px;
+					color: #016214;
+					border-width: 6px;
+					border-color: #016214;
+					border-style: double;
+				}
 
-			footer {
-				text-align: center;
-				background-color: #96f9d0;
-				opacity: 0.5;
-				border-width: 0px;
-			}
+				footer {
+					text-align: center;
+					background-color: #96f9d0;
+					opacity: 0.5;
+					border-width: 0px;
+				}
+
+		@media screen and (max-width: 400px) {
+			/* change image width at smaller views */
+			img {
+			  max-width: 100px;
+			} }
 		</style>
 	</head>
 	<body>
@@ -88,15 +94,32 @@
 			</div>
 		</nav>
 
-		<!--Images here-->
-		<main role="main" class="d-inline p-2 bg-primary text-white">
-			<div class="container">
-				<h2>Portfolio</h2>
-				<img src="..." class="img-fluid rounded" alt="..." />
-				<img src="..." class="img-fluid rounded" alt="..." />
-				<img src="..." class="rounded mx-auto d-block" alt="..." />
+		<div class="container">
+			<div class="row m-1">
+				<div class="col-md-6">
+					<img src="http://placehold.it/350x350" alt="placeholder" />
+				</div>
+				<div class="col-md-6">
+					<img src="http://placehold.it/350x350" alt="placeholder" />
+				</div>
 			</div>
-		</main>
+			<div class="row m-1">
+				<div class="col-md-6">
+					<img src="http://placehold.it/350x350" alt="placeholder" />
+				</div>
+				<div class="col-md-6">
+					<img src="http://placehold.it/350x350" alt="placeholder" />
+				</div>
+			</div>
+			<div class="row m-1">
+				<div class="col-md-6">
+					<img src="http://placehold.it/350x350" alt="placeholder" />
+				</div>
+				<div class="col-md-6">
+					<img src="http://placehold.it/350x350" alt="placeholder" />
+				</div>
+			</div>
+		</div>
 
 		<!--footer-->
 		<footer class="fixed-bottom footer mt-auto py-3">
