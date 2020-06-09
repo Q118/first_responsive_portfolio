@@ -1,4 +1,4 @@
-# homework_two
+# first_responsive_portfolio
 
 Our unit two homework assignment in UCSD extensions Bootcamp; building a responsive portfolio with CSS and Bootstrap
 
