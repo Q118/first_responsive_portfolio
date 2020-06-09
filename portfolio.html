@@ -24,46 +24,48 @@
 			rel="stylesheet"
 		/>
 		<style>
-				body {
-					font-family: "Montserrat", sans-serif;
-				}
-				h2,
-				h1 {
-					font-family: "Metal Mania", cursive;
-				}
+			body {
+				font-family: "Montserrat", sans-serif;
+				background-image:
+			}
+			h2,
+			h1 {
+				font-family: "Metal Mania", cursive;
+			}
 
-				footer {
-					text-align: center;
-				}
+			footer {
+				text-align: center;
+			}
 
-				.container {
-					background-color: #96f9d0;
-					padding: 20px;
-					color: #016214;
-					border-width: 6px;
-					border-color: #016214;
-					border-style: double;
-				}
+			.container {
+				background-color: #96f9d0;
+				padding: 20px;
+				color: #016214;
+				border-width: 6px;
+				border-color: #016214;
+				border-style: double;
+			}
 
-				footer {
-					text-align: center;
-					background-color: #96f9d0;
-					opacity: 0.5;
-					border-width: 0px;
-				}
+			footer {
+				text-align: center;
+				background-color: #96f9d0;
+				opacity: 0.5;
+				border-width: 0px;
+			}
 
-		@media screen and (max-width: 400px) {
-			/* change image width at smaller views */
-			img {
-			  max-width: 100px;
-			} }
+			@media screen and (max-width: 400px) {
+				/* change image width at smaller views */
+				img {
+					width: 100px;
+				}
+			}
 		</style>
 	</head>
 	<body>
 		<!--nav bar on each page-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#"></a>
-			<div class="container">
+			<div class="container p-3">
 				<header><h2>Shelby Anne Rothman</h2></header>
 				<button
 					class="navbar-toggler"
@@ -95,35 +97,66 @@
 		</nav>
 
 		<div class="container">
-			<div class="row m-1">
-				<div class="col-md-6">
-					<img src="http://placehold.it/350x350" alt="placeholder" />
-				</div>
-				<div class="col-md-6">
-					<img src="http://placehold.it/350x350" alt="placeholder" />
+			<div class="row">
+				<div class="col">
+					<header><h1>Portfolio</h1></header>
 				</div>
 			</div>
 			<div class="row m-1">
-				<div class="col-md-6">
-					<img src="http://placehold.it/350x350" alt="placeholder" />
+				<div class="col p-3"> <!--creating padding between the columns-->
+					<img
+						class="float-left img-fluid"
+						src="http://placehold.it/150x150"
+						alt="placeholder"
+					/>
+
+					<p>
+						iron man iron man iron man iron maniron man iron maniron man iron
+						maniron man iron maniron man iron maniron man iron maniron man iron
+						man ron man iron maniron man iron maniron man iron maniron man iron
+						man ron man iron maniron man iron maniron man iron maniron man iron
+						man ron man iron maniron man iron maniron man iron maniron man iron
+						man ron man iron maniron man iron maniron man iron maniron man iron
+						man 
+					</p>
 				</div>
-				<div class="col-md-6">
-					<img src="http://placehold.it/350x350" alt="placeholder" />
+				ß
+			</div>
+			<div class="row m-1">
+				<div class="col p-3">
+					<img
+						class="float-left img-fluid"
+						src="http://placehold.it/150x150"
+						alt="placeholder"
+					/>
+
+					<p>
+						iron man iron man iron man iron maniron man iron maniron man iron
+						maniron man iron maniron man iron maniron man iron maniron man iron
+						man
+					</p>
 				</div>
 			</div>
 			<div class="row m-1">
-				<div class="col-md-6">
-					<img src="http://placehold.it/350x350" alt="placeholder" />
-				</div>
-				<div class="col-md-6">
-					<img src="http://placehold.it/350x350" alt="placeholder" />
+				<div class="col p-3">
+					<img
+						class="float-left img-fluid"
+						src="http://placehold.it/150x150"
+						alt="placeholder"
+					/>
+
+					<p>
+						iron man iron man iron man iron maniron man iron maniron man iron
+						maniron man iron maniron man iron maniron man iron maniron man iron
+						man
+					</p>
 				</div>
 			</div>
 		</div>
 
 		<!--footer-->
 		<footer class="fixed-bottom footer mt-auto py-3">
-			<span class="text-muted">Fancy Footers Inc.</span>
+			<span class="text-muted"><i class="fa fa-buysellads"></i></span>
 		</footer>
 
 		<!--JS from Bootstrap-->
