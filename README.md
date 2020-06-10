@@ -2,16 +2,16 @@
 
 ## Description 
 
-* This is ur unit two homework assignment in UCSD extensions Bootcamp; building a responsive portfolio with CSS and Bootstrap
+* This is my unit two homework assignment in UCSD extensions Bootcamp; building a responsive portfolio with CSS and Bootstrap.
 * I decided to add a "Marvel" theme to the site for fun and practice. 
-* The intention with this assignment was to build upon our lessons of html, CSS layout, and Bootstrap to create a site with responsive design that ensures that web applications render well on a variety of devices and window or screen sizes.
+* The intention with this assignment was to build upon our lessons of html, CSS layout, and Bootstrap to create a site with responsive design, that ensures that web applications render well on a variety of devices, windows and/or screen sizes.
 * It is great practice because in the future, as a developer, I will likely be asked to create a mobile-first application or add responsive design to an existing application.
-* Using the Bootstrap CSS Framework, components, and grid system; I created a mobile responsive portfolio about my favorite Marvel characters
+* Using the Bootstrap CSS Framework, components, and grid system; I created a mobile responsive portfolio about my favorite Marvel characters.
 
 
 ## Installation
 
-* url to my deployed webpage: https://q118.github.io/first_responsive_portfolio/
+* URL to my deployed webpage: https://q118.github.io/first_responsive_portfolio/
 
 ## Usage
 
