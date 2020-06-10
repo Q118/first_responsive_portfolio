@@ -15,21 +15,20 @@
 
 ## Usage
 
-### About page
-![Screenshot of main page]("assets/about_screenshot.png")
+* About page
+  * View screenshot: https://github.com/Q118/first_responsive_portfolio/blob/master/assets/about_screenshot.png
 
- 
+## Credits
+
+* https://getbootstrap.com/
+
+* http://www.designbygrid.com/
+
+* https://www.techradar.com/how-to/how-to-watch-the-marvel-movies-in-order
+
+* https://www.marvel.com/
 
 
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URLs of the deployed applications
-
-- The URLs of the GitHub repositories
-
----
+##### 
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
